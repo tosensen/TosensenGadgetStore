@@ -1,0 +1,443 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", "TT Norms Regular", "Montserrat";
+	color: white;
+}
+
+nav {
+	background-color: rgba(194, 182, 182, 0.423);
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	overflow: hidden;
+}
+
+nav li a {
+	text-decoration: none;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: block;
+	color: rgb(10, 9, 9);
+	padding: 10px;
+}
+
+ul,
+li,
+nav li a {
+	list-style-type: none;
+	display: inline-block;
+	overflow: hidden;
+	transition: 0.5s;
+}
+
+nav li a:link {
+	color: white;
+}
+
+nav li a:hover {
+	cursor: pointer;
+	color: rgba(99, 232, 125, 0.959);
+	box-shadow: inset 0 -3px 0 0  rgba(99, 232, 125, 0.959);
+}
+
+.flex {
+	display: flex;
+}
+
+.topnav-links {
+	padding-right: 50px;
+}
+
+.banner1 {
+	background-color: black;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+}
+
+.fleximg {
+	width: 50%;
+}
+
+.flextextdiv {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 50%;
+	justify-content: flex-end;
+	padding-left: 55px;
+}
+
+div.banner1 h1{
+	font-size: 45px;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+
+div.banner1 h3 {
+	font-size: 24px;
+	font-weight: 200;
+}
+
+.tos {
+	text-align: center;
+	font-weight: lighter;
+	color: white;
+	display: inline-block;
+	font-family: "SF Pro Display";
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+}
+
+.flextextdiv h3 {
+	padding-bottom: 100px;
+}
+
+.flextextdiv i {
+	color: white;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+.flextextdiv span.tos {
+	border: 2px solid white;
+	border-radius: 10px;
+	width: 160px;
+}
+
+button[name="shopnow"] {
+	font-size: 20px;
+	padding: 10px;
+	background-color: black;
+	border: 2px solid rgba(99, 232, 125, 0.959);
+	border-radius: 5px;
+	transition: 0.5s;
+}
+
+button[name="shopnow"]:hover {
+	background-color: rgba(99, 232, 125, 0.959);
+	border: 2px solid black;
+	cursor: pointer;
+}
+
+.flextextdiv {
+	padding-left: 120px;
+	padding-bottom: 30px;
+}
+
+.borderdiv {
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.borderitems {
+	padding: 30px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.bordercolumn p {
+	font-size: 18px;
+	font-weight: 400;
+	color: black;
+	line-height: 1.6;
+	padding-left: 15px;
+}
+
+.bordercolumn p#bold {
+	font-size: 10px;
+	font-weight: 400;
+	color: black;
+	line-height: 1.6;
+	padding-left: 15px;
+}
+
+.section2 {
+	padding: 10px 100px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.section2 p.blacktext {
+	color: black;
+	font-size: 13px;
+	font-style: italic;
+}
+
+.tool {
+	color: rgba(99, 232, 125, 0.959);
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+div.search {
+	width: 500px;
+	background-color: rgb(236, 236, 236);
+	padding: 10px;
+	border: 1px solid rgb(206, 206, 206);
+	border-radius: 3px;
+	padding-right: 30px;
+}
+
+input.search {
+	background-color: rgb(236, 236, 236);
+	height: 20px;
+	width: 94%;
+	border: none;
+	color: black;
+}
+
+input:focus {
+	border: none;
+	outline: none;
+}
+
+input::placeholder {
+	font-size: 15px;
+	font-style: italic;
+	padding-left: 10px;
+	color: rgb(121, 121, 121);
+}
+
+div.search i {
+	display: inline-block;
+	color: rgb(121, 121, 121);
+	font-size: 20px;
+}
+
+button[name="searchbutton"] {
+	background-color: rgba(99, 232, 125, 0.959);
+	background-color: white;
+	color: black;
+	padding: 11px 30px;
+	border: 1px solid rgb(121, 121, 121);
+	border: 1px solid  rgba(99, 232, 125, 0.959);
+	border-radius: 3px;
+	font-size: 16px;
+	transition: 0.5s;
+}
+
+button[name="searchbutton"]:hover {
+	background-color: rgba(99, 232, 125, 0.959);
+	color: white;
+	cursor: pointer;
+}
+
+.section3 {
+	padding: 0 100px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	row-gap: 50px;
+	column-gap: 20px;
+}
+
+.sidecolumn {
+	flex: 1;
+	padding: 10px;
+	background-color: rgb(243, 243, 243);
+	height: 395px;
+}
+
+div.sidecolumn a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	line-height: 3.8;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+div.sidecolumn a:hover {
+	color: rgba(99, 232, 125, 0.959);
+}
+
+.sidecolumn h4 {
+	color: black;
+	line-height: 4;
+}
+.middlecolumn {
+	flex: 5;
+}
+
+.middleimage {
+	width: 100%;
+	height: 395px;
+}
+
+.sidecolumn2 {
+	height: 395px;
+}
+
+.section4 {
+	padding: 10px 100px;
+}
+
+.s4container {
+	border: 1px solid rgb(212, 211, 211);
+	padding: 20px;
+	border-top: 5px solid rgba(99, 232, 125, 0.959);
+}
+
+.section4 h3 {
+	color: black;
+	padding-bottom: 10px;
+}
+
+.dealsimg {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	column-gap: 20px;
+}
+
+.dealsimg i {
+	transition: 0.5s;
+}
+
+.dealsimg i:hover {
+	color: white;
+}
+
+div.holder {
+	border: 1px solid rgb(212, 211, 211);
+	border-radius: 5px;
+	text-align: center;
+	padding: 40px 0 20px 0;
+	transition: 0.5s;
+	flex: 1;
+}
+
+div.holder:hover {
+	box-shadow: -2px 2px 23px -3px rgba(102, 93, 93, 0.75);
+	-webkit-box-shadow: -2px 2px 23px -3px rgba(102, 93, 93, 0.75);
+	-moz-box-shadow: -2px 2px 23px -3px rgba(102, 93, 93, 0.75);
+}
+
+div.holder img {
+	transition: 0.5s;
+}
+
+div.holder img:hover {
+	transform: scale(1.2);
+}
+
+div.holder > p {
+	color: black;
+	font-size: 14px;
+	padding: 5px 20px;
+}
+
+button.addtocart {
+	background-color: white;
+	outline: none;
+	border: 0.5px solid rgba(99, 232, 125, 0.959);
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 12px;
+	color: black;
+	font-weight: 500;
+	transition: 0.5s;
+}
+
+button.addtocart:hover {
+	border: 0.2px solid rgb(87, 86, 86);
+	background-color: rgba(99, 232, 125, 0.959);
+	color: white;
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+button.addtocart i {
+	display: inline-block;
+	color: black;
+	padding-left: 5px;
+}
+
+footer {
+	padding: 50px 100px;
+	background-color: black;
+}
+
+.partners {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+input[type="email"] {
+	height: 40px;
+	width: 500px;
+	padding: 10px;
+	color: black;
+}
+
+input[type="email"]::placeholder {
+	padding: 5px;
+	color: black;
+	font-size: 12px;
+}
+
+button[name="subscribebtn"] {
+	height: 40px;
+	padding: 10px;
+	border: 2px solid rgba(99, 232, 125, 0.959);
+	padding: 10px;
+	background-color: black;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+
+button[name="subscribebtn"]:hover {
+	background-color: rgba(99, 232, 125, 0.959);
+}
+
+.subscribe {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	column-gap: 20px;
+}
+
+.footerdiv {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.footerdiv h4 {
+	line-height: 3;
+	font-weight: 400;
+}
+
+.footerdiv a,
+.footerdiv p {
+	display: block;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 2.5;
+}
+
+.footerdiv a:hover {
+	color: rgba(99, 232, 125, 0.959);
+	font-weight: 300;
+}
